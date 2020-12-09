@@ -306,9 +306,11 @@ void tetris::mUpdate()
         mCreateNewPiece(mCurrPiece.mTimeLimit);
 
         if((mGameOver = mIsGameOver()))
-        { 
-            std::cout << "selamm\n";
-            system("pause");
+        {   
+            // just lock the app
+            // i dont care
+            std::cout << "game over\n";
+            while(true) system("pause");
         }
         return;
     }
