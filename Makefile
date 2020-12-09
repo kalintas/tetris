@@ -2,16 +2,15 @@ CC = g++
 
 CFLAGS = -Wall -ansi -pedantic-errors -std=gnu++11
 
-MAIN_FOLDER = C:\CProjects\p2pp
 
-INCLUDES = -I $(MAIN_FOLDER)
+INCLUDES =
 
 LFLAGS =
 
 LIBS = -lmingw32 -lSDL2main -lSDL2
 
 
-SRCS = dropping_piece.cpp tetris.cpp main.cpp $(MAIN_FOLDER)\window.cpp
+SRCS = dropping_piece.cpp tetris.cpp main.cpp window.cpp
 
 OBJS = $(SRCS:.c=.o)
 
