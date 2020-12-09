@@ -24,7 +24,7 @@ int main()
 
     const vec2<int> ScreenSize = { 540, 540 };
 
-    window w("selamlar", ScreenSize);
+    window w("tetris mmm yes", ScreenSize);
 
     
 
