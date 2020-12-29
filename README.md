@@ -1,2 +1,2 @@
 # tetris
-simple tetris with SDL2
+simple tetris made with SDL2
